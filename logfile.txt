@@ -1,83 +1,63 @@
-2020-06-05 12:32:07.362  INFO 20564 --- [restartedMain] c.m.banksale.BankSaleAppApplication      : Starting BankSaleAppApplication on LAPTOP-846J2GRJ with PID 20564 (F:\STS_projects\BankSaleApp\target\classes started by Jindal in F:\STS_projects\BankSaleApp)
-2020-06-05 12:32:07.362  INFO 20564 --- [restartedMain] c.m.banksale.BankSaleAppApplication      : No active profile set, falling back to default profiles: default
-2020-06-05 12:32:07.603  INFO 20564 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
-2020-06-05 12:32:07.617  INFO 20564 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13ms. Found 2 JPA repository interfaces.
-2020-06-05 12:32:07.848  INFO 20564 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2020-06-05 12:32:07.849  INFO 20564 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-06-05 12:32:07.849  INFO 20564 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
-2020-06-05 12:32:07.867  INFO 20564 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-06-05 12:32:07.867  INFO 20564 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 503 ms
-2020-06-05 12:32:07.914  INFO 20564 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-06-05 12:32:07.922  INFO 20564 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2020-06-05 12:32:07.929  INFO 20564 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Starting...
-2020-06-05 12:32:07.934  INFO 20564 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Start completed.
-2020-06-05 12:32:07.935  INFO 20564 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2020-06-05 12:32:07.964  WARN 20564 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2020-06-05 12:32:08.338  INFO 20564 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-06-05 12:32:08.339  INFO 20564 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2020-06-05 12:32:08.414  INFO 20564 --- [task-2] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-06-05 12:32:08.484  INFO 20564 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-2020-06-05 12:32:08.485  INFO 20564 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositoriesâ€¦
-2020-06-05 12:32:08.517  INFO 20564 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
-2020-06-05 12:32:08.521  INFO 20564 --- [restartedMain] c.m.banksale.BankSaleAppApplication      : Started BankSaleAppApplication in 1.311 seconds (JVM running for 2847.234)
-2020-06-05 12:32:08.524  INFO 20564 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2020-06-05 12:32:54.764  INFO 20564 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-06-05 12:32:54.765  INFO 20564 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-06-05 12:32:54.768  INFO 20564 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
-2020-06-05 12:35:29.121  INFO 20564 --- [Thread-2009] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2020-06-05 12:35:29.122  INFO 20564 --- [Thread-2009] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2020-06-05 12:35:29.122  INFO 20564 --- [Thread-2009] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown initiated...
-2020-06-05 12:35:29.130  INFO 20564 --- [Thread-2009] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown completed.
-2020-06-05 12:35:29.374  INFO 20564 --- [restartedMain] c.m.banksale.BankSaleAppApplication      : Starting BankSaleAppApplication on LAPTOP-846J2GRJ with PID 20564 (F:\STS_projects\BankSaleApp\target\classes started by Jindal in F:\STS_projects\BankSaleApp)
-2020-06-05 12:35:29.374  INFO 20564 --- [restartedMain] c.m.banksale.BankSaleAppApplication      : No active profile set, falling back to default profiles: default
-2020-06-05 12:35:29.627  INFO 20564 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
-2020-06-05 12:35:29.640  INFO 20564 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13ms. Found 2 JPA repository interfaces.
-2020-06-05 12:35:29.798  INFO 20564 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2020-06-05 12:35:29.798  INFO 20564 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-06-05 12:35:29.798  INFO 20564 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
-2020-06-05 12:35:29.814  INFO 20564 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-06-05 12:35:29.814  INFO 20564 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 437 ms
-2020-06-05 12:35:29.852  INFO 20564 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-06-05 12:35:29.856  INFO 20564 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2020-06-05 12:35:29.863  INFO 20564 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Starting...
-2020-06-05 12:35:29.868  INFO 20564 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Start completed.
-2020-06-05 12:35:29.869  INFO 20564 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2020-06-05 12:35:29.895  WARN 20564 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2020-06-05 12:35:30.061  INFO 20564 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-06-05 12:35:30.062  INFO 20564 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2020-06-05 12:35:30.128  INFO 20564 --- [task-2] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-06-05 12:35:30.214  INFO 20564 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-2020-06-05 12:35:30.214  INFO 20564 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositoriesâ€¦
-2020-06-05 12:35:30.265  INFO 20564 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
-2020-06-05 12:35:30.272  INFO 20564 --- [restartedMain] c.m.banksale.BankSaleAppApplication      : Started BankSaleAppApplication in 0.93 seconds (JVM running for 3048.985)
-2020-06-05 12:35:30.276  INFO 20564 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2020-06-05 12:36:43.319  INFO 20564 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-06-05 12:36:43.320  INFO 20564 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-06-05 12:36:43.324  INFO 20564 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
-2020-06-05 12:37:35.964  WARN 20564 --- [http-nio-8081-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.mindtree.banksale.exception.service.custom.StallNotFoundException: Stall not found]
-2020-06-05 12:40:50.398  INFO 20564 --- [RMI TCP Connection(97)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2020-06-05 12:40:50.744  INFO 20564 --- [RMI TCP Connection(97)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2020-06-05 12:40:50.745  INFO 20564 --- [RMI TCP Connection(97)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2020-06-05 12:40:50.746  INFO 20564 --- [RMI TCP Connection(97)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Shutdown initiated...
-2020-06-05 12:40:50.752  INFO 20564 --- [RMI TCP Connection(97)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Shutdown completed.
-2020-06-05 12:42:36.701  INFO 7816 --- [main] c.m.b.BankSaleAppApplicationTests        : Starting BankSaleAppApplicationTests on LAPTOP-846J2GRJ with PID 7816 (started by Jindal in F:\STS_projects\BankSaleApp)
-2020-06-05 12:42:36.729  INFO 7816 --- [main] c.m.b.BankSaleAppApplicationTests        : No active profile set, falling back to default profiles: default
-2020-06-05 12:42:38.559  INFO 7816 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
-2020-06-05 12:42:38.693  INFO 7816 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 114ms. Found 2 JPA repository interfaces.
-2020-06-05 12:42:39.893  INFO 7816 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-06-05 12:42:40.081  INFO 7816 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2020-06-05 12:42:40.324  INFO 7816 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.15.Final
-2020-06-05 12:42:40.798  WARN 7816 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2020-06-05 12:42:40.840  INFO 7816 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-06-05 12:42:41.863  INFO 7816 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-06-05 12:42:42.716  INFO 7816 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-06-05 12:42:42.760  INFO 7816 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2020-06-05 12:42:44.823  INFO 7816 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-06-05 12:42:44.838  INFO 7816 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2020-06-05 12:42:46.121  INFO 7816 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
-2020-06-05 12:42:46.282  INFO 7816 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
-2020-06-05 12:42:46.320  INFO 7816 --- [main] c.m.b.BankSaleAppApplicationTests        : Started BankSaleAppApplicationTests in 10.389 seconds (JVM running for 14.357)
-2020-06-05 12:42:47.000  INFO 7816 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2020-06-05 12:42:47.004  INFO 7816 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2020-06-05 12:42:47.005  INFO 7816 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2020-06-05 12:42:47.069  INFO 7816 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-07-15 20:37:10.456  INFO 21144 --- [main] c.m.b.BankSaleAppApplicationTests        : Starting BankSaleAppApplicationTests on LAPTOP-846J2GRJ with PID 21144 (started by Jindal in F:\STS_projects\BankSaleApp)
+2020-07-15 20:37:10.474  INFO 21144 --- [main] c.m.b.BankSaleAppApplicationTests        : No active profile set, falling back to default profiles: default
+2020-07-15 20:37:14.967  INFO 21144 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-07-15 20:37:15.416  INFO 21144 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 379ms. Found 2 JPA repository interfaces.
+2020-07-15 20:37:17.843  INFO 21144 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-15 20:37:18.265  INFO 21144 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-15 20:37:18.912  INFO 21144 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-07-15 20:37:20.175  WARN 21144 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-15 20:37:20.190  INFO 21144 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-15 20:37:21.504  INFO 21144 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-15 20:37:25.688  INFO 21144 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-15 20:37:25.846  INFO 21144 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-07-15 20:37:30.507  INFO 21144 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-15 20:37:30.750  INFO 21144 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-15 20:37:33.384  INFO 21144 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-07-15 20:37:33.715  INFO 21144 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-07-15 20:37:33.766  INFO 21144 --- [main] c.m.b.BankSaleAppApplicationTests        : Started BankSaleAppApplicationTests in 26.044 seconds (JVM running for 34.234)
+2020-07-15 20:37:34.485  INFO 21144 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-15 20:37:34.490  INFO 21144 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-15 20:37:34.490  INFO 21144 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-07-15 20:37:34.571  INFO 21144 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-07-15 20:53:45.505  INFO 13192 --- [main] c.m.b.BankSaleAppApplicationTests        : Starting BankSaleAppApplicationTests on LAPTOP-846J2GRJ with PID 13192 (started by Jindal in F:\STS_projects\BankSaleApp)
+2020-07-15 20:53:45.510  INFO 13192 --- [main] c.m.b.BankSaleAppApplicationTests        : No active profile set, falling back to default profiles: default
+2020-07-15 20:53:47.537  INFO 13192 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-07-15 20:53:47.664  INFO 13192 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 109ms. Found 2 JPA repository interfaces.
+2020-07-15 20:53:49.101  INFO 13192 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-15 20:53:49.243  INFO 13192 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-15 20:53:49.626  INFO 13192 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-07-15 20:53:50.151  INFO 13192 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-15 20:53:50.178  WARN 13192 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-15 20:53:51.395  INFO 13192 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-15 20:53:51.829  INFO 13192 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-15 20:53:51.861  INFO 13192 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-07-15 20:53:54.633  INFO 13192 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-15 20:53:54.653  INFO 13192 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-15 20:53:57.496  INFO 13192 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-07-15 20:53:57.713  INFO 13192 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-07-15 20:53:57.733  INFO 13192 --- [main] c.m.b.BankSaleAppApplicationTests        : Started BankSaleAppApplicationTests in 13.171 seconds (JVM running for 15.061)
+2020-07-15 20:53:59.841  INFO 13192 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-15 20:53:59.845  INFO 13192 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-15 20:53:59.846  INFO 13192 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-07-15 20:53:59.872  INFO 13192 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-07-15 20:55:01.752  INFO 332 --- [main] c.m.b.BankSaleAppApplicationTests        : Starting BankSaleAppApplicationTests on LAPTOP-846J2GRJ with PID 332 (started by Jindal in F:\STS_projects\BankSaleApp)
+2020-07-15 20:55:01.756  INFO 332 --- [main] c.m.b.BankSaleAppApplicationTests        : No active profile set, falling back to default profiles: default
+2020-07-15 20:55:03.695  INFO 332 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-07-15 20:55:03.899  INFO 332 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 183ms. Found 2 JPA repository interfaces.
+2020-07-15 20:55:05.381  INFO 332 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-15 20:55:05.577  INFO 332 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-15 20:55:05.943  INFO 332 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-07-15 20:55:06.463  INFO 332 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-15 20:55:06.516  WARN 332 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-15 20:55:07.585  INFO 332 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-15 20:55:07.958  INFO 332 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-15 20:55:08.011  INFO 332 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-07-15 20:55:10.091  INFO 332 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-15 20:55:10.108  INFO 332 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-15 20:55:11.369  INFO 332 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-07-15 20:55:11.500  INFO 332 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-07-15 20:55:11.517  INFO 332 --- [main] c.m.b.BankSaleAppApplicationTests        : Started BankSaleAppApplicationTests in 10.634 seconds (JVM running for 12.678)
+2020-07-15 20:55:12.120  INFO 332 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-15 20:55:12.125  INFO 332 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-15 20:55:12.126  INFO 332 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-07-15 20:55:12.157  INFO 332 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

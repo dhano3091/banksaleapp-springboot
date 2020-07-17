@@ -28,4 +28,8 @@ public class ParticipantController {
 		return new ResponseEntity<ResponseBody<String>>(new ResponseBody<String>(
 				participantService.addParticipant(participantDTO), null, true, "participant added"), HttpStatus.OK);
 	}
+        @GetMapping("hello")
+        public String getMessage() {
+              return ("Hello World!!!");      
+         }
 }
