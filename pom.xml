@@ -13,7 +13,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>BankSaleApp</name>
 	<packaging>war</packaging>
-	<description>Bank Sale App for the popular bank</description>
+	<description>Bank Sale App for the popular bank KYC</description>
 
 	<properties>
 		<java.version>1.8</java.version>
