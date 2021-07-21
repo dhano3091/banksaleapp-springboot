@@ -1,4 +1,4 @@
-2020-07-15 20:37:10.456  INFO 21144 --- [main] c.m.b.BankSaleAppApplicationTests        : Starting BankSaleAppApplicationTests on LAPTOP-846J2GRJ with PID 21144 (started by Jindal in F:\STS_projects\BankSaleApp)
+2020-07-15 20:37:10.45667  INFO 21144 --- [main] c.m.b.BankSaleAppApplicationTests        : Starting BankSaleAppApplicationTests on LAPTOP-846J2GRJ with PID 21144 (started by Jindal in F:\STS_projects\BankSaleApp)
 2020-07-15 20:37:10.474  INFO 21144 --- [main] c.m.b.BankSaleAppApplicationTests        : No active profile set, falling back to default profiles: default
 2020-07-15 20:37:14.967  INFO 21144 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
 2020-07-15 20:37:15.416  INFO 21144 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 379ms. Found 2 JPA repository interfaces.
